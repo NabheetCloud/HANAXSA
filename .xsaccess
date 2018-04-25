@@ -1,0 +1,25 @@
+{
+    "exposed": true,
+    "authentication": [{
+        "method": "Form"
+    }],
+    "authorization": ["Odata.odatasub::Execute"],
+    "mime_mapping": [{
+        "extension": "jpg",
+        "mimetype": "image/jpeg"
+    }],
+    "force_ssl": false,
+    "enable_etags": true,
+    "prevent_xsrf": false,
+    "anonymous_connection": null,
+    "cors": [{
+        "enabled": false,
+         "allowMethods": ["GET"],
+
+      "allowOrigin": ["*"],
+
+      "maxAge":"3600"
+    }],
+    "cache_control": "no-cache, no-store",
+    "default_file": "index.html"
+}

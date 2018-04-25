@@ -1,0 +1,10 @@
+role Odata.odatasub::user
+{
+system privilege: DATA ADMIN;
+
+catalog schema "ODATATEST": SELECT;
+
+
+application privilege: "Odata.odatasub::Execute";
+
+}

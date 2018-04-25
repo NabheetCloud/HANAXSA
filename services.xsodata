@@ -1,0 +1,6 @@
+service {
+    "ODATATEST"."ZNAME" as "ZNAME"
+        create forbidden
+        update forbidden
+        delete forbidden; 
+}
